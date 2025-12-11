@@ -5,6 +5,19 @@
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
+    int b = 0, r = 0;
+    for(int t = 0; t <5; t++){
+        printf("Torre: Direita\n");  /*Torre*/
+    }
+    do{
+        printf("Bispo: Cima, Direita\n");   /*Bispo*/
+        b++; /*Incremento na variaverl B para evitar loop*/
+    }while(b <= 5);
+    while(r <= 5){
+        printf("Rainha: Esquerda\n");
+        r++;
+    }
+    return 0;
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
