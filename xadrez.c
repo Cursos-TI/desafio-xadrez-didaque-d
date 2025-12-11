@@ -17,6 +17,13 @@ int main() {
         printf("Rainha: Esquerda\n");
         r++;
     }
+    for(int c = 0; c <= 2; c++){
+        printf("Cavalo: Direita\n");
+        while(c < 2){
+        printf("Cavalo: baixo\n");
+        c++;
+    }
+    }
     return 0;
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
@@ -40,6 +47,4 @@ int main() {
 
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
-
-    return 0;
 }
